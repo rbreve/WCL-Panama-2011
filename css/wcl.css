@@ -1,0 +1,128 @@
+.rounded5 {
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.rounded10 {
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+body{
+	background-image: url(../img/bgnoise.png);
+}
+
+.menu{
+	float:right;
+}
+
+.menu   li{
+  	margin-bottom:5px;
+	color:#555;
+	list-style:none;
+	padding:4px 32px 7px 6px;
+	text-align:right;
+ 	height:20px;
+	font-size:20px;
+	display: block;
+	font-weight: 500;
+	
+		-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.menu li a{
+	text-decoration: none;
+}
+
+.expositores{
+	background: url(../img/ico_expo.png) no-repeat 155px 1px;
+}
+
+.lugar{
+	background: url(../img/ico_loc.png) no-repeat 155px 1px;
+}
+
+.agenda{
+	background: url(../img/ico_cal.png) no-repeat 155px 1px;
+}
+
+.sponsors{
+	background: url(../img/ico_sponsors.png) no-repeat 155px 3px;
+}
+
+.registro{
+	background: url(../img/ico_registro.png) no-repeat 155px 2px;
+}
+
+.text-normal{
+	font-size:18px;
+	font-weight:300;
+}
+
+.text-small{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.white-shadow{
+	text-shadow: 1px 2px 2px white;
+	
+}
+
+.person-about{
+	font-size:14px;
+	font-weight:100;
+}
+
+.gray-text{
+	color:#363636;
+}
+ 
+.title-info{
+	font-size:19px;
+	word-spacing: 1px;
+  
+}
+
+.title-info span{
+ }
+ 
+ .bullet{
+	color: #6dcff6;
+}
+
+.dark-gray{
+		color:#555555;
+
+}
+
+.avatar_small{
+	
+}
+
+.name{
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	font-weight: 100;
+}
+
+.person-title{
+	margin-top: 8px;
+}
+
+.person-about{
+	line-height: 20px;
+}
+
