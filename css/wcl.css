@@ -21,7 +21,6 @@ a {
 	background: url(../img/buildings.png) repeat-x;
 	width: 100%;
 	height:150px;
- 	bottom: -30px;
  }
  
 .lightblue{
@@ -31,12 +30,15 @@ a {
 .darkblue{
 	color: #304860;
 }
+
+.titlecolor{
+	color: #4f687c;
+}
  
 .title{
 	font-size: 70px;
 	margin-top: 25px;
-	font-weight: 100;
-}
+  }
 
 body{
 	background: url(../img/bgspot.png) no-repeat 50%, url(../img/bgrep1.png) repeat;
@@ -77,11 +79,11 @@ body{
 }
 
 .lugar{
-	background: url(../img/ico_loc.png) no-repeat 155px 1px;
+	background: url(../img/ico_loc.png) no-repeat 155px 4px;
 }
 
 .agenda{
-	background: url(../img/ico_cal.png) no-repeat 155px 1px;
+	background: url(../img/ico_cal.png) no-repeat 155px 2px;
 }
 
 .sponsors{
@@ -119,8 +121,7 @@ body{
 .title-info{
 	font-size:19px;
 	word-spacing: 1px;
-  
-}
+ }
 
 .title-info span{
  }
@@ -173,18 +174,22 @@ body{
 	padding: 20px 5px 0px 20px;
 }
 
+.agenda-row .tencol{
+	font-weight: bold;
+}
+
 .darkrow{
-		background-color: rgba(107,107,107,0.40);
+		background-color: rgba(60,82,106,0.8);
 }
 
 .lightrow{
-		background-color: rgba(147,147,147,0.30);
-}
+		background-color: rgba(102,136,174,0.27);
+		}
 
 .speaker-name{
 	font-size: 30px;
 	margin-top: 10px;
-	font-weight: bold;
+	font-weight: 100;
 	
 }
 
